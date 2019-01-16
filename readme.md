@@ -22,6 +22,11 @@ public class RouteController {
 
 ---
 
+- create module public -> angular;
+- build angular get app, put app to springboot resources/public floder;
+- use 1 controller, always access http://localhost:8080/;
+- angular router work fine!
+
 - resources/public
     - index.html
     - main.js

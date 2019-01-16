@@ -1,0 +1,7 @@
+<p>
+  user-list works!
+</p>
+<ul>
+  <!--<li *ngFor="let name of names">hello {{name}}</li>-->
+  <app-user-item *ngFor="let name of names; let flag of flags" [name]="name" [flag]="flag"></app-user-item>
+</ul>

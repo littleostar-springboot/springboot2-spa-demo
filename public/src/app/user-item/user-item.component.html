@@ -1,0 +1,12 @@
+<p>
+  user-item works! hello {{name}}
+</p>
+<ul *ngIf="true === flag">
+  <li>
+    <a routerLink="/user-item" [queryParams]="{name: 'world', hobby: 'read'}">
+      routerLink=/user-item [queryParams]: name=world hobby=read</a>
+  </li>
+  <li>
+    <a routerLink (click)="clickQueryParams('alice', 'think')">queryParams: name=alice hobby=think</a>
+  </li>
+</ul>

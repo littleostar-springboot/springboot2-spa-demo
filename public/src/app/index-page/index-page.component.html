@@ -1,0 +1,14 @@
+<!--<div>-->
+<!--{{ title }}-->
+<!--<app-hello-world></app-hello-world>-->
+<!--<app-user-item></app-user-item>-->
+<!--<app-user-list></app-user-list>-->
+<!--</div>-->
+
+<ul>
+  <li *ngFor="let route of routeList">
+    <a routerLink="{{route}}">{{route}}</a>
+  </li>
+</ul>
+<br>
+<router-outlet></router-outlet>
